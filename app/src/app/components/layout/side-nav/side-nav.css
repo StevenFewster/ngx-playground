@@ -1,0 +1,7 @@
+aside {
+  border-left: solid 5px var(--mat-sys-inverse-primary);
+}
+.flex-row-reverse aside {
+  border-left: none;
+  border-right: solid 5px var(--mat-sys-inverse-primary);
+}

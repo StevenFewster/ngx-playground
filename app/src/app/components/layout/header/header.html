@@ -1,0 +1,20 @@
+<mat-toolbar class="flex">
+  <div class="">
+    <button
+      matIconButton
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Angular Playground</span>
+  </div>
+  <div class="flex-1 flex justify-end gap-4">
+    <a matMiniFab color="primary" [routerLink]="['/components']">
+      <mat-icon>favorite</mat-icon>
+    </a>
+    <button matButton="filled" href="/">
+      <mat-icon>share</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

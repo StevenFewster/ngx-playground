@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+@use 'tailwindcss';
+
+// Customize the entire app. Change :root to your selector if you want to scope the styles.
+// :root {
+//   @include mat.toolbar-overrides(
+//     (
+//       container-background-color: orange,
+//       container-text-color: red,
+//     )
+//   );
+// }
+
+.example-label {
+  @apply text-lg py-2;
+}

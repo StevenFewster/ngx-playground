@@ -1,0 +1,12 @@
+<div class="flex flex-row-reverse">
+  <main class="flex-1 p-4">
+    <ng-content></ng-content>
+  </main>
+  <aside class="md:basis-3xs hidden md:block">
+    <ul>
+      @for (navItem of navItems(); track navItem.path ) {
+      <li><a [routerLink]="[navItem.path]">{{ navItem.name }}</a></li>
+      }
+    </ul>
+  </aside>
+</div>
