@@ -19,7 +19,6 @@ import {
   MatButtonToggleGroup,
 } from '@angular/material/button-toggle';
 import {
-  DateAdapter,
   MatPseudoCheckbox,
   provideNativeDateAdapter,
 } from '@angular/material/core';
@@ -64,6 +63,7 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { NavItemsComponents } from '../../constants/nav-items-components';
 import { NavItem } from '../../models/navigation';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-components',
@@ -112,6 +112,7 @@ import { NavItem } from '../../models/navigation';
     MatSliderVisualThumb,
     MatStepperModule,
     MatGridListModule,
+    RouterModule,
   ],
   templateUrl: './components.html',
   styleUrl: './components.scss',
